@@ -22,7 +22,7 @@ def using_shift (array)
   array.shift
 end
 
-def shift_with_args (array, string)
+def shift_with_args (array)
   array.shift(2)
 end
 
@@ -42,11 +42,11 @@ def using_flatten (array)
   array.flatten
 end
 
-def using_delete (array, string)
-  array.delete(string)
+def using_delete (array, "string")
+  array.delete("string")
 end
 
-def using_delete_at (array, integer)
-  array.delete(integer)
+def using_delete_at (array, 2)
+  array.delete(2)
 end
 
